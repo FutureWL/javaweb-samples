@@ -15,6 +15,8 @@
     <file type="web" url="file://$PROJECT_DIR$/javaweb-jstl/javaweb-jstl-address-book" />
     <file type="web" url="file://$PROJECT_DIR$/javaweb-jstl/javaweb-jstl-address-book-i18n" />
     <file type="web" url="file://$PROJECT_DIR$/javaweb-jstl/javaweb-jstl-customer-support-v5" />
+    <file type="web" url="file://$PROJECT_DIR$/javaweb-log/javaweb-customer-support-v9" />
+    <file type="web" url="file://$PROJECT_DIR$/javaweb-log/javaweb-logging-integration" />
     <file type="web" url="file://$PROJECT_DIR$/javaweb-servlet/javaweb-servlet-customer-support-v1" />
     <file type="web" url="file://$PROJECT_DIR$/javaweb-servlet/javaweb-servlet-hello-user" />
     <file type="web" url="file://$PROJECT_DIR$/javaweb-servlet/javaweb-servlet-hello-world" />

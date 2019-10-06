@@ -4,6 +4,8 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.websocket.*;
+import java.io.*;
 import java.net.URI;
 import java.net.URISyntaxException;
 
@@ -16,8 +18,7 @@ public class ClusterNodeServlet extends HttpServlet {
     @Override
     public void init() throws ServletException {
         this.nodeId = this.getInitParameter("nodeId");
-        String path = this.getServletContext().getContextPath() +
-                "/clusterNodeSocket/" + this.nodeId;
+        String path = this.getServletContext().getContextPath() + "/clusterNodeSocket/" + this.nodeId;
         try {
             URI uri = new URI("ws", "localhost:8080", path, null, null);
             this.session = ContainerProvider.getWebSocketContainer()
@@ -39,9 +40,7 @@ public class ClusterNodeServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        ClusterMessage message = new ClusterMessage(this.nodeId,
-                "request:{ip:\"" + request.getRemoteAddr() +
-                        "\",queryString:\"" + request.getQueryString() + "\"}");
+        ClusterMessage message = new ClusterMessage(this.nodeId, "request:{ip:\"" + request.getRemoteAddr() + "\",queryString:\"" + request.getQueryString() + "\"}");
 
         try (OutputStream output = this.session.getBasicRemote().getSendStream();
              ObjectOutputStream stream = new ObjectOutputStream(output)) {
@@ -54,9 +53,7 @@ public class ClusterNodeServlet extends HttpServlet {
     public void onMessage(InputStream input) {
         try (ObjectInputStream stream = new ObjectInputStream(input)) {
             ClusterMessage message = (ClusterMessage) stream.readObject();
-            System.out.println("INFO (Node " + this.nodeId +
-                    "): Message received from cluster; node = " +
-                    message.getNodeId() + ", message = " + message.getMessage());
+            System.out.println("INFO (Node " + this.nodeId + "): Message received from cluster; node = " + message.getNodeId() + ", message = " + message.getMessage());
         } catch (IOException | ClassNotFoundException e) {
             e.printStackTrace();
         }
@@ -66,8 +63,7 @@ public class ClusterNodeServlet extends HttpServlet {
     public void onClose(CloseReason reason) {
         CloseReason.CloseCode code = reason.getCloseCode();
         if (code != CloseReason.CloseCodes.NORMAL_CLOSURE) {
-            System.err.println("ERROR: WebSocket connection closed unexpectedly;" +
-                    " code = " + code + ", reason = " + reason.getReasonPhrase());
+            System.err.println("ERROR: WebSocket connection closed unexpectedly;" + " code = " + code + ", reason = " + reason.getReasonPhrase());
         }
     }
 }

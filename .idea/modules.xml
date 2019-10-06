@@ -5,9 +5,11 @@
       <module fileurl="file://$PROJECT_DIR$/javaweb-websocket/javaweb-customer-support-v8/customer-support.iml" filepath="$PROJECT_DIR$/javaweb-websocket/javaweb-customer-support-v8/customer-support.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaweb-websocket/javaweb-game-site/game-site.iml" filepath="$PROJECT_DIR$/javaweb-websocket/javaweb-game-site/game-site.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaweb-custom/javaweb-custom.iml" filepath="$PROJECT_DIR$/javaweb-custom/javaweb-custom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb-custom/javaweb-custom-template-tags/javaweb-custom-template-tags.iml" filepath="$PROJECT_DIR$/javaweb-custom/javaweb-custom-template-tags/javaweb-custom-template-tags.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaweb-websocket/javaweb-customer-support-v8/javaweb-customer-support.iml" filepath="$PROJECT_DIR$/javaweb-websocket/javaweb-customer-support-v8/javaweb-customer-support.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaweb-custom/javaweb-customer-support-v6/javaweb-customer-support-v6.iml" filepath="$PROJECT_DIR$/javaweb-custom/javaweb-customer-support-v6/javaweb-customer-support-v6.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaweb-websocket/javaweb-customer-support-v8/javaweb-customer-support-v8.iml" filepath="$PROJECT_DIR$/javaweb-websocket/javaweb-customer-support-v8/javaweb-customer-support-v8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb-log/javaweb-customer-support-v9/javaweb-customer-support-v9.iml" filepath="$PROJECT_DIR$/javaweb-log/javaweb-customer-support-v9/javaweb-customer-support-v9.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaweb-el/javaweb-el.iml" filepath="$PROJECT_DIR$/javaweb-el/javaweb-el.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaweb-el/javaweb-el-customer-support-v4/javaweb-el-customer-support-v4.iml" filepath="$PROJECT_DIR$/javaweb-el/javaweb-el-customer-support-v4/javaweb-el-customer-support-v4.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaweb-el/javaweb-el-user-profile/javaweb-el-user-profile.iml" filepath="$PROJECT_DIR$/javaweb-el/javaweb-el-user-profile/javaweb-el-user-profile.iml" />
@@ -25,6 +27,8 @@
       <module fileurl="file://$PROJECT_DIR$/javaweb-jstl/javaweb-jstl-address-book/javaweb-jstl-address-book.iml" filepath="$PROJECT_DIR$/javaweb-jstl/javaweb-jstl-address-book/javaweb-jstl-address-book.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaweb-jstl/javaweb-jstl-address-book-i18n/javaweb-jstl-address-book-i18n.iml" filepath="$PROJECT_DIR$/javaweb-jstl/javaweb-jstl-address-book-i18n/javaweb-jstl-address-book-i18n.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaweb-jstl/javaweb-jstl-customer-support-v5/javaweb-jstl-customer-support-v5.iml" filepath="$PROJECT_DIR$/javaweb-jstl/javaweb-jstl-customer-support-v5/javaweb-jstl-customer-support-v5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb-log/javaweb-log.iml" filepath="$PROJECT_DIR$/javaweb-log/javaweb-log.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb-log/javaweb-logging-integration/javaweb-logging-integration.iml" filepath="$PROJECT_DIR$/javaweb-log/javaweb-logging-integration/javaweb-logging-integration.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaweb-samples.iml" filepath="$PROJECT_DIR$/javaweb-samples.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaweb-servlet/javaweb-servlet.iml" filepath="$PROJECT_DIR$/javaweb-servlet/javaweb-servlet.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaweb-servlet/javaweb-servlet-customer-support-v1/javaweb-servlet-customer-support-v1.iml" filepath="$PROJECT_DIR$/javaweb-servlet/javaweb-servlet-customer-support-v1/javaweb-servlet-customer-support-v1.iml" />

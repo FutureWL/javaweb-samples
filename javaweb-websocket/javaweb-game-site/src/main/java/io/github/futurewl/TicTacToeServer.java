@@ -2,6 +2,7 @@ package io.github.futurewl;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+import javax.websocket.*;
 import javax.websocket.server.PathParam;
 import javax.websocket.server.ServerEndpoint;
 import java.io.IOException;
@@ -15,8 +16,7 @@ public class TicTacToeServer {
     private static ObjectMapper mapper = new ObjectMapper();
 
     @OnOpen
-    public void onOpen(Session session, @PathParam("gameId") long gameId,
-                       @PathParam("username") String username) {
+    public void onOpen(Session session, @PathParam("gameId") long gameId, @PathParam("username") String username) {
         try {
             TicTacToeGame ticTacToeGame = TicTacToeGame.getActiveGame(gameId);
             if (ticTacToeGame != null) {
@@ -56,8 +56,7 @@ public class TicTacToeServer {
     }
 
     @OnMessage
-    public void onMessage(Session session, String message,
-                          @PathParam("gameId") long gameId) {
+    public void onMessage(Session session, String message, @PathParam("gameId") long gameId) {
         Game game = TicTacToeServer.games.get(gameId);
         boolean isPlayer1 = session == game.player1;
 
@@ -96,8 +95,9 @@ public class TicTacToeServer {
     @OnClose
     public void onClose(Session session, @PathParam("gameId") long gameId) {
         Game game = TicTacToeServer.games.get(gameId);
-        if (game == null)
+        if (game == null) {
             return;
+        }
         boolean isPlayer1 = session == game.player1;
         if (game.ticTacToeGame == null) {
             TicTacToeGame.removeQueuedGame(game.gameId);

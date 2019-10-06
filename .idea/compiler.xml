@@ -6,35 +6,37 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="javaweb-filter-filter-order" />
-        <module name="javaweb-servlet-customer-support-v1" />
-        <module name="javaweb-jsp-hello-world" />
-        <module name="javaweb-simulated-cluster" />
-        <module name="javaweb-custom" />
-        <module name="customer-support" />
-        <module name="javaweb-servlet-hello-user" />
-        <module name="javaweb-session-customer-support-v3" />
-        <module name="javaweb-session-shopping-cart" />
-        <module name="javaweb-servlet-hello-world" />
-        <module name="javaweb-customer-support-v8" />
-        <module name="game-site" />
-        <module name="javaweb-customer-support-v6" />
-        <module name="javaweb-customer-support" />
         <module name="javaweb-session-session-activity" />
-        <module name="javaweb-el-customer-support-v4" />
-        <module name="javaweb-filter-customer-support-v7" />
-        <module name="simulated-cluster" />
         <module name="javaweb-jstl-customer-support-v5" />
-        <module name="javaweb-jsp-customer-support-v2" />
-        <module name="javaweb-game-site" />
-        <module name="javaweb-filter-filter-async" />
-        <module name="javaweb-filter-compression-filter" />
-        <module name="javaweb-jstl-address-book-i18n" />
-        <module name="template-tags" />
-        <module name="javaweb-jsp-hello-user" />
-        <module name="javaweb-jstl-address-book" />
-        <module name="javaweb-template-tags" />
+        <module name="game-site" />
         <module name="javaweb-el-user-profile" />
+        <module name="javaweb-custom-template-tags" />
+        <module name="javaweb-session-customer-support-v3" />
+        <module name="javaweb-el-customer-support-v4" />
+        <module name="javaweb-customer-support" />
+        <module name="simulated-cluster" />
+        <module name="javaweb-servlet-customer-support-v1" />
+        <module name="javaweb-jstl-address-book-i18n" />
+        <module name="javaweb-servlet-hello-world" />
+        <module name="javaweb-jsp-customer-support-v2" />
+        <module name="template-tags" />
+        <module name="javaweb-template-tags" />
+        <module name="javaweb-simulated-cluster" />
+        <module name="javaweb-session-shopping-cart" />
+        <module name="javaweb-servlet-hello-user" />
+        <module name="javaweb-jstl-address-book" />
+        <module name="javaweb-filter-compression-filter" />
+        <module name="javaweb-filter-customer-support-v7" />
+        <module name="javaweb-jsp-hello-world" />
+        <module name="javaweb-filter-filter-order" />
+        <module name="javaweb-filter-filter-async" />
+        <module name="javaweb-customer-support-v9" />
+        <module name="javaweb-customer-support-v8" />
+        <module name="javaweb-logging-integration" />
+        <module name="javaweb-customer-support-v6" />
+        <module name="javaweb-game-site" />
+        <module name="customer-support" />
+        <module name="javaweb-jsp-hello-user" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -75,9 +77,11 @@
       <module name="java-ee-spring-framework-security" target="1.5" />
       <module name="java-ee-websocket" target="1.5" />
       <module name="javaweb-custom" target="1.5" />
+      <module name="javaweb-custom-template-tags" target="1.8" />
       <module name="javaweb-customer-support" target="1.8" />
       <module name="javaweb-customer-support-v6" target="1.8" />
       <module name="javaweb-customer-support-v8" target="1.8" />
+      <module name="javaweb-customer-support-v9" target="1.8" />
       <module name="javaweb-el" target="1.5" />
       <module name="javaweb-el-customer-support-v4" target="1.8" />
       <module name="javaweb-el-user-profile" target="1.8" />
@@ -95,6 +99,8 @@
       <module name="javaweb-jstl-address-book" target="1.8" />
       <module name="javaweb-jstl-address-book-i18n" target="1.8" />
       <module name="javaweb-jstl-customer-support-v5" target="1.8" />
+      <module name="javaweb-log" target="1.5" />
+      <module name="javaweb-logging-integration" target="1.8" />
       <module name="javaweb-samples" target="1.5" />
       <module name="javaweb-servlet" target="1.5" />
       <module name="javaweb-servlet-customer-support-v1" target="1.8" />
