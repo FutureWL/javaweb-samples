@@ -1,5 +1,5 @@
 <%--@elvariable id="ticketId" type="java.lang.String"--%>
-<%--@elvariable id="ticket" type="io.github.futurewl.site.Ticket"--%>
+<%--@elvariable id="ticket" type="Ticket"--%>
 <spring:message code="title.ticketView" var="viewTitle"/>
 <template:basic htmlTitle="${ticket.subject}"
                 bodyTitle="${viewTitle} #${ticketId}: ${ticket.subject}">

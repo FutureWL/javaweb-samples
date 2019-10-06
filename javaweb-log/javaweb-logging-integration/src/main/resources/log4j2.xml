@@ -20,7 +20,7 @@
         <root level="warn">
             <appender-ref ref="Console"/>
         </root>
-        <logger name="com.wrox" level="info" additivity="false">
+        <logger name="io.github.futurewl" level="info" additivity="false">
             <appender-ref ref="WroxFileAppender"/>
             <appender-ref ref="Console">
                 <MarkerFilter marker="WROX_CONSOLE" onMatch="NEUTRAL"

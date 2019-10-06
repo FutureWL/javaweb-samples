@@ -29,7 +29,7 @@ import java.util.concurrent.Executor;
 @EnableAsync(proxyTargetClass = true)
 @EnableScheduling
 @ComponentScan(
-        basePackages = "com.wrox.site",
+        basePackages = "io.github.futurewl.site",
         excludeFilters = @ComponentScan.Filter(Controller.class)
 )
 public class RootContextConfiguration
@@ -79,7 +79,7 @@ public class RootContextConfiguration
     @Bean
     public Jaxb2Marshaller jaxb2Marshaller() {
         Jaxb2Marshaller marshaller = new Jaxb2Marshaller();
-        marshaller.setPackagesToScan(new String[]{"com.wrox.site"});
+        marshaller.setPackagesToScan(new String[]{"io.github.futurewl.site"});
         return marshaller;
     }
 

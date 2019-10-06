@@ -1,4 +1,4 @@
-<%--@elvariable id="ticketForm" type="io.github.futurewl.site.TicketController.Form"--%>
+<%--@elvariable id="ticketForm" type="TicketController.Form"--%>
 <%--@elvariable id="validationErrors" type="java.util.Set<javax.validation.ConstraintViolation>"--%>
 <spring:message code="title.ticketAdd" var="addTitle"/>
 <template:basic htmlTitle="${addTitle}" bodyTitle="${addTitle}">

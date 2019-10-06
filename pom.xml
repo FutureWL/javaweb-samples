@@ -8,7 +8,6 @@
     <artifactId>javaweb-samples</artifactId>
     <version>190921</version>
     <packaging>pom</packaging>
-
     <modules>
         <module>javaweb-servlet</module>
         <module>javaweb-jsp</module>
@@ -20,12 +19,12 @@
         <module>javaweb-websocket</module>
         <module>javaweb-log</module>
         <module>javaweb-bean-validation</module>
-        <!--        <module>javaweb-spring-framework</module>-->
-        <!--        <module>javaweb-spring-framework-mvc</module>-->
-        <!--        <module>javaweb-spring-framework-i18n</module>-->
-        <!--        <module>javaweb-spring-framework-mq</module>-->
-        <!--        <module>javaweb-spring-framework-jpa</module>-->
-        <!--        <module>javaweb-spring-framework-security</module>-->
+        <module>javaweb-spring-framework</module>
+        <module>javaweb-spring-framework-mvc</module>
+        <module>javaweb-spring-framework-i18n</module>
+        <module>javaweb-spring-framework-mq</module>
+        <module>javaweb-spring-framework-jpa</module>
+        <module>javaweb-spring-framework-security</module>
     </modules>
 
     <repositories>

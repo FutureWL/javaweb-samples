@@ -14,7 +14,7 @@
     <modules>
         <module>javaweb-jstl-address-book</module>
         <module>javaweb-jstl-address-book-i18n</module>
-        <module>javaweb-jstl-customer-support-v5</module>
+        <module>javaweb-customer-support-v5</module>
     </modules>
 
 </project>

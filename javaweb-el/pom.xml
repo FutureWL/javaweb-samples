@@ -13,7 +13,7 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>javaweb-el-customer-support-v4</module>
+        <module>javaweb-customer-support-v4</module>
         <module>javaweb-el-user-profile</module>
     </modules>
 

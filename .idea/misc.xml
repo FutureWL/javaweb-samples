@@ -6,26 +6,58 @@
     <file type="web" url="file://$PROJECT_DIR$/javaweb-bean-validation/javaweb-hr-portal" />
     <file type="web" url="file://$PROJECT_DIR$/javaweb-custom/javaweb-custom-template-tags" />
     <file type="web" url="file://$PROJECT_DIR$/javaweb-custom/javaweb-customer-support-v6" />
-    <file type="web" url="file://$PROJECT_DIR$/javaweb-el/javaweb-el-customer-support-v4" />
+    <file type="web" url="file://$PROJECT_DIR$/javaweb-el/javaweb-customer-support-v4" />
     <file type="web" url="file://$PROJECT_DIR$/javaweb-el/javaweb-el-user-profile" />
+    <file type="web" url="file://$PROJECT_DIR$/javaweb-filter/javaweb-customer-support-v7" />
     <file type="web" url="file://$PROJECT_DIR$/javaweb-filter/javaweb-filter-compression-filter" />
-    <file type="web" url="file://$PROJECT_DIR$/javaweb-filter/javaweb-filter-customer-support-v7" />
     <file type="web" url="file://$PROJECT_DIR$/javaweb-filter/javaweb-filter-filter-async" />
     <file type="web" url="file://$PROJECT_DIR$/javaweb-filter/javaweb-filter-filter-order" />
-    <file type="web" url="file://$PROJECT_DIR$/javaweb-jsp/javaweb-jsp-customer-support-v2" />
+    <file type="web" url="file://$PROJECT_DIR$/javaweb-jsp/javaweb-customer-support-v2" />
     <file type="web" url="file://$PROJECT_DIR$/javaweb-jsp/javaweb-jsp-hello-user" />
     <file type="web" url="file://$PROJECT_DIR$/javaweb-jsp/javaweb-jsp-hello-world" />
+    <file type="web" url="file://$PROJECT_DIR$/javaweb-jstl/javaweb-customer-support-v5" />
     <file type="web" url="file://$PROJECT_DIR$/javaweb-jstl/javaweb-jstl-address-book" />
     <file type="web" url="file://$PROJECT_DIR$/javaweb-jstl/javaweb-jstl-address-book-i18n" />
-    <file type="web" url="file://$PROJECT_DIR$/javaweb-jstl/javaweb-jstl-customer-support-v5" />
     <file type="web" url="file://$PROJECT_DIR$/javaweb-log/javaweb-customer-support-v9" />
     <file type="web" url="file://$PROJECT_DIR$/javaweb-log/javaweb-logging-integration" />
-    <file type="web" url="file://$PROJECT_DIR$/javaweb-servlet/javaweb-servlet-customer-support-v1" />
+    <file type="web" url="file://$PROJECT_DIR$/javaweb-servlet/javaweb-customer-support-v1" />
     <file type="web" url="file://$PROJECT_DIR$/javaweb-servlet/javaweb-servlet-hello-user" />
     <file type="web" url="file://$PROJECT_DIR$/javaweb-servlet/javaweb-servlet-hello-world" />
-    <file type="web" url="file://$PROJECT_DIR$/javaweb-session/javaweb-session-customer-support-v3" />
+    <file type="web" url="file://$PROJECT_DIR$/javaweb-session/javaweb-customer-support-v3" />
     <file type="web" url="file://$PROJECT_DIR$/javaweb-session/javaweb-session-session-activity" />
     <file type="web" url="file://$PROJECT_DIR$/javaweb-session/javaweb-session-shopping-cart" />
+    <file type="web" url="file://$PROJECT_DIR$/javaweb-spring-framework-i18n/javaweb-customer-support-v12" />
+    <file type="web" url="file://$PROJECT_DIR$/javaweb-spring-framework-i18n/javaweb-localized-application" />
+    <file type="web" url="file://$PROJECT_DIR$/javaweb-spring-framework-jpa/javaweb-advanced-criteria" />
+    <file type="web" url="file://$PROJECT_DIR$/javaweb-spring-framework-jpa/javaweb-advanced-mappings" />
+    <file type="web" url="file://$PROJECT_DIR$/javaweb-spring-framework-jpa/javaweb-customer-support-v15" />
+    <file type="web" url="file://$PROJECT_DIR$/javaweb-spring-framework-jpa/javaweb-customer-support-v16" />
+    <file type="web" url="file://$PROJECT_DIR$/javaweb-spring-framework-jpa/javaweb-customer-support-v17" />
+    <file type="web" url="file://$PROJECT_DIR$/javaweb-spring-framework-jpa/javaweb-customer-support-v18" />
+    <file type="web" url="file://$PROJECT_DIR$/javaweb-spring-framework-jpa/javaweb-entity-mappings" />
+    <file type="web" url="file://$PROJECT_DIR$/javaweb-spring-framework-jpa/javaweb-enums-dates-lobs" />
+    <file type="web" url="file://$PROJECT_DIR$/javaweb-spring-framework-jpa/javaweb-search-engine" />
+    <file type="web" url="file://$PROJECT_DIR$/javaweb-spring-framework-jpa/javaweb-spring-data-jpa" />
+    <file type="web" url="file://$PROJECT_DIR$/javaweb-spring-framework-jpa/javaweb-spring-jpa" />
+    <file type="web" url="file://$PROJECT_DIR$/javaweb-spring-framework-mq/javaweb-amqp-messaging" />
+    <file type="web" url="file://$PROJECT_DIR$/javaweb-spring-framework-mq/javaweb-publish-subscribe" />
+    <file type="web" url="file://$PROJECT_DIR$/javaweb-spring-framework-mq/javaweb-websocket-messaging" />
+    <file type="web" url="file://$PROJECT_DIR$/javaweb-spring-framework-mvc/javaweb-customer-support-v10" />
+    <file type="web" url="file://$PROJECT_DIR$/javaweb-spring-framework-mvc/javaweb-customer-support-v11" />
+    <file type="web" url="file://$PROJECT_DIR$/javaweb-spring-framework-mvc/javaweb-customer-support-v14" />
+    <file type="web" url="file://$PROJECT_DIR$/javaweb-spring-framework-mvc/javaweb-discussion-board" />
+    <file type="web" url="file://$PROJECT_DIR$/javaweb-spring-framework-mvc/javaweb-model-view-controller" />
+    <file type="web" url="file://$PROJECT_DIR$/javaweb-spring-framework-mvc/javaweb-spring-forms" />
+    <file type="web" url="file://$PROJECT_DIR$/javaweb-spring-framework-mvc/javaweb-web-service" />
+    <file type="web" url="file://$PROJECT_DIR$/javaweb-spring-framework-security/javaweb-authentication-app" />
+    <file type="web" url="file://$PROJECT_DIR$/javaweb-spring-framework-security/javaweb-customer-support-v19" />
+    <file type="web" url="file://$PROJECT_DIR$/javaweb-spring-framework-security/javaweb-customer-support-v20" />
+    <file type="web" url="file://$PROJECT_DIR$/javaweb-spring-framework-security/javaweb-customer-support-v21" />
+    <file type="web" url="file://$PROJECT_DIR$/javaweb-spring-framework-security/javaweb-oauth-client" />
+    <file type="web" url="file://$PROJECT_DIR$/javaweb-spring-framework/javaweb-spring-hybrid-config" />
+    <file type="web" url="file://$PROJECT_DIR$/javaweb-spring-framework/javaweb-spring-java-config" />
+    <file type="web" url="file://$PROJECT_DIR$/javaweb-spring-framework/javaweb-spring-one-context-xml-config" />
+    <file type="web" url="file://$PROJECT_DIR$/javaweb-spring-framework/javaweb-spring-xml-config" />
     <file type="web" url="file://$PROJECT_DIR$/javaweb-websocket/javaweb-customer-support-v8" />
     <file type="web" url="file://$PROJECT_DIR$/javaweb-websocket/javaweb-game-site" />
     <file type="web" url="file://$PROJECT_DIR$/javaweb-websocket/javaweb-simulated-cluster" />

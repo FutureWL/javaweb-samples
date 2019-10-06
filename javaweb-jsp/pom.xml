@@ -14,7 +14,7 @@
     <modules>
         <module>javaweb-jsp-hello-world</module>
         <module>javaweb-jsp-hello-user</module>
-        <module>javaweb-jsp-customer-support-v2</module>
+        <module>javaweb-customer-support-v2</module>
     </modules>
 
 </project>

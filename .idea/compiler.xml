@@ -6,43 +6,89 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="javaweb-session-session-activity" />
-        <module name="javaweb-jstl-customer-support-v5" />
-        <module name="game-site" />
-        <module name="javaweb-el-user-profile" />
-        <module name="javaweb-custom-template-tags" />
-        <module name="javaweb-session-customer-support-v3" />
-        <module name="javaweb-el-customer-support-v4" />
-        <module name="javaweb-customer-support" />
-        <module name="simulated-cluster" />
-        <module name="javaweb-servlet-customer-support-v1" />
-        <module name="javaweb-jstl-address-book-i18n" />
-        <module name="javaweb-servlet-hello-world" />
-        <module name="javaweb-jsp-customer-support-v2" />
-        <module name="template-tags" />
-        <module name="javaweb-template-tags" />
+        <module name="javaweb-advanced-mappings" />
         <module name="javaweb-simulated-cluster" />
-        <module name="javaweb-session-shopping-cart" />
-        <module name="javaweb-servlet-hello-user" />
-        <module name="javaweb-jstl-address-book" />
-        <module name="javaweb-filter-compression-filter" />
-        <module name="javaweb-filter-customer-support-v7" />
-        <module name="javaweb-hr-portal" />
-        <module name="javaweb-jsp-hello-world" />
-        <module name="javaweb-filter-filter-order" />
-        <module name="javaweb-filter-filter-async" />
-        <module name="javaweb-customer-support-v13" />
-        <module name="javaweb-customer-support-v9" />
-        <module name="javaweb-customer-support-v8" />
-        <module name="javaweb-logging-integration" />
-        <module name="javaweb-customer-support-v6" />
-        <module name="javaweb-game-site" />
-        <module name="hr-portal" />
-        <module name="customer-support" />
+        <module name="javaweb-customer-support-v16" />
+        <module name="javaweb-customer-support-v17" />
         <module name="javaweb-jsp-hello-user" />
+        <module name="javaweb-customer-support-v19" />
+        <module name="javaweb-filter-filter-async" />
+        <module name="javaweb-servlet-hello-user" />
+        <module name="javaweb-spring-xml-config" />
+        <module name="javaweb-discussion-board" />
+        <module name="javaweb-el-user-profile" />
+        <module name="javaweb-customer-support (4)" />
+        <module name="javaweb-customer-support-v20" />
+        <module name="javaweb-customer-support-v21" />
+        <module name="spring-hybrid-config" />
+        <module name="javaweb-advanced-criteria" />
+        <module name="javaweb-session-shopping-cart" />
+        <module name="javaweb-localized-application" />
+        <module name="javaweb-spring-hybrid-config" />
+        <module name="hr-portal" />
+        <module name="javaweb-servlet-hello-world" />
+        <module name="javaweb-filter-filter-order" />
+        <module name="javaweb-logging-integration" />
+        <module name="javaweb-jsp-hello-world" />
+        <module name="javaweb-customer-support" />
+        <module name="javaweb-model-view-controller" />
+        <module name="javaweb-spring-java-config" />
+        <module name="javaweb-spring-jpa" />
+        <module name="javaweb-customer-support (3)" />
+        <module name="spring-xml-config" />
+        <module name="javaweb-jstl-address-book-i18n" />
+        <module name="javaweb-publish-subscribe" />
+        <module name="javaweb-hr-portal" />
+        <module name="javaweb-spring-one-context-xml-config" />
+        <module name="javaweb-session-session-activity" />
+        <module name="javaweb-amqp-messaging" />
+        <module name="javaweb-customer-support-v9" />
+        <module name="simulated-cluster" />
+        <module name="javaweb-customer-support-v7" />
+        <module name="advanced-criteria" />
+        <module name="javaweb-customer-support-v5" />
+        <module name="javaweb-customer-support-v4" />
+        <module name="javaweb-customer-support-v3" />
+        <module name="javaweb-customer-support-v2" />
+        <module name="javaweb-customer-support-v1" />
+        <module name="publish-subscribe" />
+        <module name="javaweb-template-tags" />
+        <module name="customer-support" />
+        <module name="javaweb-websocket-messaging" />
+        <module name="javaweb-custom-template-tags" />
+        <module name="javaweb-customer-support-v6" />
+        <module name="javaweb-customer-support-v18" />
+        <module name="game-site" />
+        <module name="javaweb-web-service" />
+        <module name="javaweb-customer-support-v15" />
+        <module name="javaweb-customer-support-v14" />
+        <module name="javaweb-customer-support-v13" />
+        <module name="spring-java-config" />
+        <module name="javaweb-customer-support-v11" />
+        <module name="template-tags" />
+        <module name="javaweb-authentication-app" />
+        <module name="javaweb-jstl-address-book" />
+        <module name="javaweb-spring-data-jpa" />
+        <module name="websocket-messaging" />
+        <module name="javaweb-search-engine" />
+        <module name="amqp-messaging" />
+        <module name="javaweb-filter-compression-filter" />
+        <module name="javaweb-customer-support (1)" />
+        <module name="javaweb-game-site" />
+        <module name="javaweb-spring-forms" />
+        <module name="javaweb-customer-support-v8" />
+        <module name="javaweb-enums-dates-lobs" />
+        <module name="javaweb-oauth-client" />
+        <module name="javaweb-customer-support (2)" />
+        <module name="spring-one-context-xml-config" />
+        <module name="javaweb-entity-mappings" />
+        <module name="javaweb-customer-support-v10" />
+        <module name="javaweb-customer-support-v12" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="advanced-criteria" target="1.8" />
+      <module name="amqp-messaging" target="1.8" />
       <module name="custom-constraints" target="1.8" />
       <module name="customer-support" target="1.8" />
       <module name="game-site" target="1.8" />
@@ -81,49 +127,97 @@
       <module name="java-ee-spring-framework-mvc" target="1.5" />
       <module name="java-ee-spring-framework-security" target="1.5" />
       <module name="java-ee-websocket" target="1.5" />
+      <module name="javaweb-advanced-criteria" target="1.8" />
+      <module name="javaweb-advanced-mappings" target="1.8" />
+      <module name="javaweb-amqp-messaging" target="1.8" />
+      <module name="javaweb-authentication-app" target="1.8" />
       <module name="javaweb-bean-validation" target="1.5" />
       <module name="javaweb-custom" target="1.5" />
       <module name="javaweb-custom-template-tags" target="1.8" />
       <module name="javaweb-customer-support" target="1.8" />
+      <module name="javaweb-customer-support (1)" target="1.8" />
+      <module name="javaweb-customer-support (2)" target="1.8" />
+      <module name="javaweb-customer-support (3)" target="1.8" />
+      <module name="javaweb-customer-support (4)" target="1.8" />
+      <module name="javaweb-customer-support-v1" target="1.8" />
+      <module name="javaweb-customer-support-v10" target="1.8" />
+      <module name="javaweb-customer-support-v11" target="1.8" />
+      <module name="javaweb-customer-support-v12" target="1.8" />
       <module name="javaweb-customer-support-v13" target="1.8" />
+      <module name="javaweb-customer-support-v14" target="1.8" />
+      <module name="javaweb-customer-support-v15" target="1.8" />
+      <module name="javaweb-customer-support-v16" target="1.8" />
+      <module name="javaweb-customer-support-v17" target="1.8" />
+      <module name="javaweb-customer-support-v18" target="1.8" />
+      <module name="javaweb-customer-support-v19" target="1.8" />
+      <module name="javaweb-customer-support-v2" target="1.8" />
+      <module name="javaweb-customer-support-v20" target="1.8" />
+      <module name="javaweb-customer-support-v21" target="1.8" />
+      <module name="javaweb-customer-support-v3" target="1.8" />
+      <module name="javaweb-customer-support-v4" target="1.8" />
+      <module name="javaweb-customer-support-v5" target="1.8" />
       <module name="javaweb-customer-support-v6" target="1.8" />
+      <module name="javaweb-customer-support-v7" target="1.8" />
       <module name="javaweb-customer-support-v8" target="1.8" />
       <module name="javaweb-customer-support-v9" target="1.8" />
+      <module name="javaweb-discussion-board" target="1.8" />
       <module name="javaweb-el" target="1.5" />
-      <module name="javaweb-el-customer-support-v4" target="1.8" />
       <module name="javaweb-el-user-profile" target="1.8" />
+      <module name="javaweb-entity-mappings" target="1.8" />
+      <module name="javaweb-enums-dates-lobs" target="1.8" />
       <module name="javaweb-filter" target="1.5" />
       <module name="javaweb-filter-compression-filter" target="1.8" />
-      <module name="javaweb-filter-customer-support-v7" target="1.8" />
       <module name="javaweb-filter-filter-async" target="1.8" />
       <module name="javaweb-filter-filter-order" target="1.8" />
       <module name="javaweb-game-site" target="1.8" />
       <module name="javaweb-hr-portal" target="1.8" />
       <module name="javaweb-jsp" target="1.5" />
-      <module name="javaweb-jsp-customer-support-v2" target="1.8" />
       <module name="javaweb-jsp-hello-user" target="1.8" />
       <module name="javaweb-jsp-hello-world" target="1.8" />
       <module name="javaweb-jstl" target="1.5" />
       <module name="javaweb-jstl-address-book" target="1.8" />
       <module name="javaweb-jstl-address-book-i18n" target="1.8" />
-      <module name="javaweb-jstl-customer-support-v5" target="1.8" />
+      <module name="javaweb-localized-application" target="1.8" />
       <module name="javaweb-log" target="1.5" />
       <module name="javaweb-logging-integration" target="1.8" />
+      <module name="javaweb-model-view-controller" target="1.8" />
+      <module name="javaweb-oauth-client" target="1.8" />
+      <module name="javaweb-publish-subscribe" target="1.8" />
       <module name="javaweb-samples" target="1.5" />
+      <module name="javaweb-search-engine" target="1.8" />
       <module name="javaweb-servlet" target="1.5" />
-      <module name="javaweb-servlet-customer-support-v1" target="1.8" />
       <module name="javaweb-servlet-hello-user" target="1.8" />
       <module name="javaweb-servlet-hello-world" target="1.8" />
       <module name="javaweb-session" target="1.5" />
-      <module name="javaweb-session-customer-support-v3" target="1.8" />
       <module name="javaweb-session-session-activity" target="1.8" />
       <module name="javaweb-session-shopping-cart" target="1.8" />
       <module name="javaweb-simulated-cluster" target="1.8" />
+      <module name="javaweb-spring-data-jpa" target="1.8" />
+      <module name="javaweb-spring-forms" target="1.8" />
+      <module name="javaweb-spring-framework" target="1.5" />
+      <module name="javaweb-spring-framework-i18n" target="1.5" />
+      <module name="javaweb-spring-framework-jpa" target="1.5" />
+      <module name="javaweb-spring-framework-mq" target="1.5" />
+      <module name="javaweb-spring-framework-mvc" target="1.5" />
+      <module name="javaweb-spring-framework-security" target="1.5" />
+      <module name="javaweb-spring-hybrid-config" target="1.8" />
+      <module name="javaweb-spring-java-config" target="1.8" />
+      <module name="javaweb-spring-jpa" target="1.8" />
+      <module name="javaweb-spring-one-context-xml-config" target="1.8" />
+      <module name="javaweb-spring-xml-config" target="1.8" />
       <module name="javaweb-template-tags" target="1.8" />
+      <module name="javaweb-web-service" target="1.8" />
       <module name="javaweb-websocket" target="1.5" />
+      <module name="javaweb-websocket-messaging" target="1.8" />
       <module name="maven-template" target="1.5" />
+      <module name="publish-subscribe" target="1.8" />
       <module name="simulated-cluster" target="1.8" />
+      <module name="spring-hybrid-config" target="1.8" />
+      <module name="spring-java-config" target="1.8" />
+      <module name="spring-one-context-xml-config" target="1.8" />
+      <module name="spring-xml-config" target="1.8" />
       <module name="template-tags" target="1.8" />
+      <module name="websocket-messaging" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

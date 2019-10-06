@@ -28,8 +28,8 @@ import java.util.Map;
 public class ChatEndpoint implements HttpSessionListener {
     private static final Logger log = LogManager.getLogger();
 
-    private static final String HTTP_SESSION_PROPERTY = "com.wrox.ws.HTTP_SESSION";
-    private static final String WS_SESSION_PROPERTY = "com.wrox.http.WS_SESSION";
+    private static final String HTTP_SESSION_PROPERTY = "io.github.futurewl.ws.HTTP_SESSION";
+    private static final String WS_SESSION_PROPERTY = "io.github.futurewl.http.WS_SESSION";
     private static long sessionIdSequence = 1L;
     private static final Object sessionIdSequenceLock = new Object();
     private static final Map<Long, ChatSession> chatSessions = new Hashtable<>();

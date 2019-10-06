@@ -13,8 +13,8 @@
     <packaging>pom</packaging>
 
     <modules>
+        <module>javaweb-customer-support-v7</module>
         <module>javaweb-filter-compression-filter</module>
-        <module>javaweb-filter-customer-support-v7</module>
         <module>javaweb-filter-filter-async</module>
         <module>javaweb-filter-filter-order</module>
     </modules>
