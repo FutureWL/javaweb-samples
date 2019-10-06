@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/javaweb-jsp/javaweb-jsp.iml" filepath="$PROJECT_DIR$/javaweb-jsp/javaweb-jsp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb-jsp/javaweb-jsp-customer-support-v2/javaweb-jsp-customer-support-v2.iml" filepath="$PROJECT_DIR$/javaweb-jsp/javaweb-jsp-customer-support-v2/javaweb-jsp-customer-support-v2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb-jsp/javaweb-jsp-hello-user/javaweb-jsp-hello-user.iml" filepath="$PROJECT_DIR$/javaweb-jsp/javaweb-jsp-hello-user/javaweb-jsp-hello-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb-jsp/javaweb-jsp-hello-world/javaweb-jsp-hello-world.iml" filepath="$PROJECT_DIR$/javaweb-jsp/javaweb-jsp-hello-world/javaweb-jsp-hello-world.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaweb-samples.iml" filepath="$PROJECT_DIR$/javaweb-samples.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaweb-servlet/javaweb-servlet.iml" filepath="$PROJECT_DIR$/javaweb-servlet/javaweb-servlet.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaweb-servlet/javaweb-servlet-customer-support-v1/javaweb-servlet-customer-support-v1.iml" filepath="$PROJECT_DIR$/javaweb-servlet/javaweb-servlet-customer-support-v1/javaweb-servlet-customer-support-v1.iml" />

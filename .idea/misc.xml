@@ -7,14 +7,15 @@
     <file type="web" url="file://$PROJECT_DIR$/java-ee-filter/java-ee-filter-customer-support-v7" />
     <file type="web" url="file://$PROJECT_DIR$/java-ee-filter/java-ee-filter-filter-async" />
     <file type="web" url="file://$PROJECT_DIR$/java-ee-filter/java-ee-filter-filter-order" />
-    <file type="web" url="file://$PROJECT_DIR$/java-ee-jsp/java-ee-jsp-customer-support-v2" />
-    <file type="web" url="file://$PROJECT_DIR$/java-ee-jsp/java-ee-jsp-hello-world" />
     <file type="web" url="file://$PROJECT_DIR$/java-ee-jstl/java-ee-jstl-address-book" />
     <file type="web" url="file://$PROJECT_DIR$/java-ee-jstl/java-ee-jstl-address-book-i18n" />
     <file type="web" url="file://$PROJECT_DIR$/java-ee-jstl/java-ee-jstl-customer-support-v5" />
     <file type="web" url="file://$PROJECT_DIR$/java-ee-session/java-ee-session-customer-support-v3" />
     <file type="web" url="file://$PROJECT_DIR$/java-ee-session/java-ee-session-session-activity" />
     <file type="web" url="file://$PROJECT_DIR$/java-ee-session/java-ee-session-shopping-cart" />
+    <file type="web" url="file://$PROJECT_DIR$/javaweb-jsp/javaweb-jsp-customer-support-v2" />
+    <file type="web" url="file://$PROJECT_DIR$/javaweb-jsp/javaweb-jsp-hello-user" />
+    <file type="web" url="file://$PROJECT_DIR$/javaweb-jsp/javaweb-jsp-hello-world" />
     <file type="web" url="file://$PROJECT_DIR$/javaweb-servlet/javaweb-servlet-customer-support-v1" />
     <file type="web" url="file://$PROJECT_DIR$/javaweb-servlet/javaweb-servlet-hello-user" />
     <file type="web" url="file://$PROJECT_DIR$/javaweb-servlet/javaweb-servlet-hello-world" />

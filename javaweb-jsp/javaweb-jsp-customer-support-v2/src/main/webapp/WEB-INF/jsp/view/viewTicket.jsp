@@ -1,3 +1,5 @@
+<%@ page import="io.github.futurewl.Attachment" %>
+<%@ page import="io.github.futurewl.Ticket" %>
 <%@ page session="false" %>
 <%
     String ticketId = (String) request.getAttribute("ticketId");
