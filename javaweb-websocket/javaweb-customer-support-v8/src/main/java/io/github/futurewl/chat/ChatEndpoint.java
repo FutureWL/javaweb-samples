@@ -4,6 +4,7 @@ import javax.servlet.annotation.WebListener;
 import javax.servlet.http.HttpSession;
 import javax.servlet.http.HttpSessionEvent;
 import javax.servlet.http.HttpSessionListener;
+import javax.websocket.*;
 import javax.websocket.server.HandshakeRequest;
 import javax.websocket.server.PathParam;
 import javax.websocket.server.ServerEndpoint;
@@ -128,10 +129,11 @@ public class ChatEndpoint implements HttpSessionListener {
         message.setContent(message.getUser() + " left the chat due to an error.");
         try {
             Session other = this.close(session, message);
-            if (other != null)
+            if (other != null) {
                 other.close(new CloseReason(
                         CloseReason.CloseCodes.UNEXPECTED_CONDITION, e.toString()
                 ));
+            }
         } catch (IOException ignore) {
         } finally {
             try {
@@ -156,8 +158,9 @@ public class ChatEndpoint implements HttpSessionListener {
                 try {
                     session.getBasicRemote().sendObject(message);
                     Session other = this.close(session, message);
-                    if (other != null)
+                    if (other != null) {
                         other.close();
+                    }
                 } catch (IOException | EncodeException e) {
                     e.printStackTrace();
                 } finally {
@@ -176,8 +179,9 @@ public class ChatEndpoint implements HttpSessionListener {
     @SuppressWarnings("unchecked")
     private synchronized ArrayList<Session> getSessionsFor(HttpSession session) {
         try {
-            if (session.getAttribute(WS_SESSION_PROPERTY) == null)
+            if (session.getAttribute(WS_SESSION_PROPERTY) == null) {
                 session.setAttribute(WS_SESSION_PROPERTY, new ArrayList<>());
+            }
 
             return (ArrayList<Session>) session.getAttribute(WS_SESSION_PROPERTY);
         } catch (IllegalStateException e) {
@@ -190,8 +194,9 @@ public class ChatEndpoint implements HttpSessionListener {
         Session other = this.getOtherSession(c, s);
         ChatEndpoint.sessions.remove(s);
         HttpSession h = ChatEndpoint.httpSessions.get(s);
-        if (h != null)
+        if (h != null) {
             this.getSessionsFor(h).remove(s);
+        }
         if (c != null) {
             c.log(message);
             ChatEndpoint.pendingSessions.remove(c);
@@ -206,8 +211,9 @@ public class ChatEndpoint implements HttpSessionListener {
         if (other != null) {
             ChatEndpoint.sessions.remove(other);
             h = ChatEndpoint.httpSessions.get(other);
-            if (h != null)
+            if (h != null) {
                 this.getSessionsFor(h).remove(s);
+            }
             try {
                 other.getBasicRemote().sendObject(message);
             } catch (IOException | EncodeException e) {
