@@ -10,8 +10,13 @@
         <module name="javaweb-servlet-customer-support-v1" />
         <module name="javaweb-servlet-hello-user" />
         <module name="javaweb-servlet-hello-world" />
+        <module name="javaweb-el-customer-support-v4" />
+        <module name="javaweb-el-user-profile" />
         <module name="javaweb-jsp-hello-world" />
+        <module name="javaweb-session-customer-support-v3" />
+        <module name="javaweb-session-shopping-cart" />
         <module name="javaweb-jsp-hello-user" />
+        <module name="javaweb-session-session-activity" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -49,6 +54,9 @@
       <module name="java-ee-spring-framework-mvc" target="1.5" />
       <module name="java-ee-spring-framework-security" target="1.5" />
       <module name="java-ee-websocket" target="1.5" />
+      <module name="javaweb-el" target="1.5" />
+      <module name="javaweb-el-customer-support-v4" target="1.8" />
+      <module name="javaweb-el-user-profile" target="1.8" />
       <module name="javaweb-jsp" target="1.5" />
       <module name="javaweb-jsp-customer-support-v2" target="1.8" />
       <module name="javaweb-jsp-hello-user" target="1.8" />
@@ -58,6 +66,10 @@
       <module name="javaweb-servlet-customer-support-v1" target="1.8" />
       <module name="javaweb-servlet-hello-user" target="1.8" />
       <module name="javaweb-servlet-hello-world" target="1.8" />
+      <module name="javaweb-session" target="1.5" />
+      <module name="javaweb-session-customer-support-v3" target="1.8" />
+      <module name="javaweb-session-session-activity" target="1.8" />
+      <module name="javaweb-session-shopping-cart" target="1.8" />
       <module name="maven-template" target="1.5" />
     </bytecodeTargetLevel>
   </component>

@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/javaweb-el/javaweb-el.iml" filepath="$PROJECT_DIR$/javaweb-el/javaweb-el.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb-el/javaweb-el-customer-support-v4/javaweb-el-customer-support-v4.iml" filepath="$PROJECT_DIR$/javaweb-el/javaweb-el-customer-support-v4/javaweb-el-customer-support-v4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb-el/javaweb-el-user-profile/javaweb-el-user-profile.iml" filepath="$PROJECT_DIR$/javaweb-el/javaweb-el-user-profile/javaweb-el-user-profile.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaweb-jsp/javaweb-jsp.iml" filepath="$PROJECT_DIR$/javaweb-jsp/javaweb-jsp.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaweb-jsp/javaweb-jsp-customer-support-v2/javaweb-jsp-customer-support-v2.iml" filepath="$PROJECT_DIR$/javaweb-jsp/javaweb-jsp-customer-support-v2/javaweb-jsp-customer-support-v2.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaweb-jsp/javaweb-jsp-hello-user/javaweb-jsp-hello-user.iml" filepath="$PROJECT_DIR$/javaweb-jsp/javaweb-jsp-hello-user/javaweb-jsp-hello-user.iml" />
@@ -11,6 +14,10 @@
       <module fileurl="file://$PROJECT_DIR$/javaweb-servlet/javaweb-servlet-customer-support-v1/javaweb-servlet-customer-support-v1.iml" filepath="$PROJECT_DIR$/javaweb-servlet/javaweb-servlet-customer-support-v1/javaweb-servlet-customer-support-v1.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaweb-servlet/javaweb-servlet-hello-user/javaweb-servlet-hello-user.iml" filepath="$PROJECT_DIR$/javaweb-servlet/javaweb-servlet-hello-user/javaweb-servlet-hello-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaweb-servlet/javaweb-servlet-hello-world/javaweb-servlet-hello-world.iml" filepath="$PROJECT_DIR$/javaweb-servlet/javaweb-servlet-hello-world/javaweb-servlet-hello-world.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb-session/javaweb-session.iml" filepath="$PROJECT_DIR$/javaweb-session/javaweb-session.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb-session/javaweb-session-customer-support-v3/javaweb-session-customer-support-v3.iml" filepath="$PROJECT_DIR$/javaweb-session/javaweb-session-customer-support-v3/javaweb-session-customer-support-v3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb-session/javaweb-session-session-activity/javaweb-session-session-activity.iml" filepath="$PROJECT_DIR$/javaweb-session/javaweb-session-session-activity/javaweb-session-session-activity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb-session/javaweb-session-shopping-cart/javaweb-session-shopping-cart.iml" filepath="$PROJECT_DIR$/javaweb-session/javaweb-session-shopping-cart/javaweb-session-shopping-cart.iml" />
     </modules>
   </component>
 </project>
