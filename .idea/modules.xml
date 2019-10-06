@@ -9,6 +9,10 @@
       <module fileurl="file://$PROJECT_DIR$/javaweb-jsp/javaweb-jsp-customer-support-v2/javaweb-jsp-customer-support-v2.iml" filepath="$PROJECT_DIR$/javaweb-jsp/javaweb-jsp-customer-support-v2/javaweb-jsp-customer-support-v2.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaweb-jsp/javaweb-jsp-hello-user/javaweb-jsp-hello-user.iml" filepath="$PROJECT_DIR$/javaweb-jsp/javaweb-jsp-hello-user/javaweb-jsp-hello-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaweb-jsp/javaweb-jsp-hello-world/javaweb-jsp-hello-world.iml" filepath="$PROJECT_DIR$/javaweb-jsp/javaweb-jsp-hello-world/javaweb-jsp-hello-world.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb-jstl/javaweb-jstl.iml" filepath="$PROJECT_DIR$/javaweb-jstl/javaweb-jstl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb-jstl/javaweb-jstl-address-book/javaweb-jstl-address-book.iml" filepath="$PROJECT_DIR$/javaweb-jstl/javaweb-jstl-address-book/javaweb-jstl-address-book.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb-jstl/javaweb-jstl-address-book-i18n/javaweb-jstl-address-book-i18n.iml" filepath="$PROJECT_DIR$/javaweb-jstl/javaweb-jstl-address-book-i18n/javaweb-jstl-address-book-i18n.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb-jstl/javaweb-jstl-customer-support-v5/javaweb-jstl-customer-support-v5.iml" filepath="$PROJECT_DIR$/javaweb-jstl/javaweb-jstl-customer-support-v5/javaweb-jstl-customer-support-v5.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaweb-samples.iml" filepath="$PROJECT_DIR$/javaweb-samples.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaweb-servlet/javaweb-servlet.iml" filepath="$PROJECT_DIR$/javaweb-servlet/javaweb-servlet.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaweb-servlet/javaweb-servlet-customer-support-v1/javaweb-servlet-customer-support-v1.iml" filepath="$PROJECT_DIR$/javaweb-servlet/javaweb-servlet-customer-support-v1/javaweb-servlet-customer-support-v1.iml" />

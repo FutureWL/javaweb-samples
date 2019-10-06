@@ -6,17 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="javaweb-jsp-customer-support-v2" />
         <module name="javaweb-servlet-customer-support-v1" />
-        <module name="javaweb-servlet-hello-user" />
-        <module name="javaweb-servlet-hello-world" />
-        <module name="javaweb-el-customer-support-v4" />
-        <module name="javaweb-el-user-profile" />
         <module name="javaweb-jsp-hello-world" />
+        <module name="javaweb-servlet-hello-user" />
         <module name="javaweb-session-customer-support-v3" />
         <module name="javaweb-session-shopping-cart" />
-        <module name="javaweb-jsp-hello-user" />
+        <module name="javaweb-servlet-hello-world" />
         <module name="javaweb-session-session-activity" />
+        <module name="javaweb-el-customer-support-v4" />
+        <module name="javaweb-jstl-customer-support-v5" />
+        <module name="javaweb-jsp-customer-support-v2" />
+        <module name="javaweb-jstl-address-book-i18n" />
+        <module name="javaweb-jsp-hello-user" />
+        <module name="javaweb-jstl-address-book" />
+        <module name="javaweb-el-user-profile" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -61,6 +64,10 @@
       <module name="javaweb-jsp-customer-support-v2" target="1.8" />
       <module name="javaweb-jsp-hello-user" target="1.8" />
       <module name="javaweb-jsp-hello-world" target="1.8" />
+      <module name="javaweb-jstl" target="1.5" />
+      <module name="javaweb-jstl-address-book" target="1.8" />
+      <module name="javaweb-jstl-address-book-i18n" target="1.8" />
+      <module name="javaweb-jstl-customer-support-v5" target="1.8" />
       <module name="javaweb-samples" target="1.5" />
       <module name="javaweb-servlet" target="1.5" />
       <module name="javaweb-servlet-customer-support-v1" target="1.8" />
