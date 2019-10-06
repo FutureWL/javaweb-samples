@@ -15,8 +15,8 @@
         <module>javaweb-session</module>
         <module>javaweb-el</module>
         <module>javaweb-jstl</module>
-        <!--        <module>javaweb-custom</module>-->
-        <!--        <module>javaweb-filter</module>-->
+        <module>javaweb-custom</module>
+        <module>javaweb-filter</module>
         <!--        <module>javaweb-websocket</module>-->
         <!--        <module>javaweb-log</module>-->
         <!--        <module>javaweb-bean-validation</module>-->

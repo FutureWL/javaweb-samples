@@ -6,23 +6,34 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="javaweb-filter-filter-order" />
         <module name="javaweb-servlet-customer-support-v1" />
         <module name="javaweb-jsp-hello-world" />
+        <module name="javaweb-custom" />
+        <module name="customer-support" />
         <module name="javaweb-servlet-hello-user" />
         <module name="javaweb-session-customer-support-v3" />
         <module name="javaweb-session-shopping-cart" />
         <module name="javaweb-servlet-hello-world" />
+        <module name="javaweb-customer-support-v6" />
+        <module name="javaweb-customer-support" />
         <module name="javaweb-session-session-activity" />
         <module name="javaweb-el-customer-support-v4" />
+        <module name="javaweb-filter-customer-support-v7" />
         <module name="javaweb-jstl-customer-support-v5" />
         <module name="javaweb-jsp-customer-support-v2" />
+        <module name="javaweb-filter-filter-async" />
+        <module name="javaweb-filter-compression-filter" />
         <module name="javaweb-jstl-address-book-i18n" />
+        <module name="template-tags" />
         <module name="javaweb-jsp-hello-user" />
         <module name="javaweb-jstl-address-book" />
+        <module name="javaweb-template-tags" />
         <module name="javaweb-el-user-profile" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="customer-support" target="1.8" />
       <module name="java-ee-bean-validation" target="1.5" />
       <module name="java-ee-custom" target="1.5" />
       <module name="java-ee-el" target="1.5" />
@@ -57,9 +68,17 @@
       <module name="java-ee-spring-framework-mvc" target="1.5" />
       <module name="java-ee-spring-framework-security" target="1.5" />
       <module name="java-ee-websocket" target="1.5" />
+      <module name="javaweb-custom" target="1.5" />
+      <module name="javaweb-customer-support" target="1.8" />
+      <module name="javaweb-customer-support-v6" target="1.8" />
       <module name="javaweb-el" target="1.5" />
       <module name="javaweb-el-customer-support-v4" target="1.8" />
       <module name="javaweb-el-user-profile" target="1.8" />
+      <module name="javaweb-filter" target="1.5" />
+      <module name="javaweb-filter-compression-filter" target="1.8" />
+      <module name="javaweb-filter-customer-support-v7" target="1.8" />
+      <module name="javaweb-filter-filter-async" target="1.8" />
+      <module name="javaweb-filter-filter-order" target="1.8" />
       <module name="javaweb-jsp" target="1.5" />
       <module name="javaweb-jsp-customer-support-v2" target="1.8" />
       <module name="javaweb-jsp-hello-user" target="1.8" />
@@ -77,7 +96,9 @@
       <module name="javaweb-session-customer-support-v3" target="1.8" />
       <module name="javaweb-session-session-activity" target="1.8" />
       <module name="javaweb-session-shopping-cart" target="1.8" />
+      <module name="javaweb-template-tags" target="1.8" />
       <module name="maven-template" target="1.5" />
+      <module name="template-tags" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

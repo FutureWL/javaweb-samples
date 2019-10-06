@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
-    <file type="web" url="file://$PROJECT_DIR$/java-ee-filter/java-ee-filter-compression-filter" />
-    <file type="web" url="file://$PROJECT_DIR$/java-ee-filter/java-ee-filter-customer-support-v7" />
-    <file type="web" url="file://$PROJECT_DIR$/java-ee-filter/java-ee-filter-filter-async" />
-    <file type="web" url="file://$PROJECT_DIR$/java-ee-filter/java-ee-filter-filter-order" />
+    <file type="web" url="file://$PROJECT_DIR$/javaweb-custom/javaweb-custom-template-tags" />
+    <file type="web" url="file://$PROJECT_DIR$/javaweb-custom/javaweb-customer-support-v6" />
     <file type="web" url="file://$PROJECT_DIR$/javaweb-el/javaweb-el-customer-support-v4" />
     <file type="web" url="file://$PROJECT_DIR$/javaweb-el/javaweb-el-user-profile" />
+    <file type="web" url="file://$PROJECT_DIR$/javaweb-filter/javaweb-filter-compression-filter" />
+    <file type="web" url="file://$PROJECT_DIR$/javaweb-filter/javaweb-filter-customer-support-v7" />
+    <file type="web" url="file://$PROJECT_DIR$/javaweb-filter/javaweb-filter-filter-async" />
+    <file type="web" url="file://$PROJECT_DIR$/javaweb-filter/javaweb-filter-filter-order" />
     <file type="web" url="file://$PROJECT_DIR$/javaweb-jsp/javaweb-jsp-customer-support-v2" />
     <file type="web" url="file://$PROJECT_DIR$/javaweb-jsp/javaweb-jsp-hello-user" />
     <file type="web" url="file://$PROJECT_DIR$/javaweb-jsp/javaweb-jsp-hello-world" />

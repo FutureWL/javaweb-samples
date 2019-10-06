@@ -11,5 +11,9 @@
 
     <artifactId>javaweb-custom</artifactId>
 
+    <modules>
+        <module>javaweb-custom-template-tags</module>
+        <module>javaweb-customer-support-v6</module>
+    </modules>
 
 </project>

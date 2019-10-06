@@ -1,4 +1,4 @@
-package com.wrox;
+package io.github.futurewl;
 
 public final class TimeUtils {
     public static String intervalToString(long timeInterval) {

@@ -1,4 +1,4 @@
-package com.wrox.tag;
+package io.github.futurewl.tag;
 
 import org.apache.commons.lang3.StringUtils;
 import org.apache.taglibs.standard.tag.common.core.Util;

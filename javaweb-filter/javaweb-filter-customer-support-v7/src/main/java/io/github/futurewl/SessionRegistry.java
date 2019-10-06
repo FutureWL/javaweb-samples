@@ -1,4 +1,4 @@
-package com.wrox;
+package io.github.futurewl;
 
 import javax.servlet.http.HttpSession;
 import java.util.ArrayList;

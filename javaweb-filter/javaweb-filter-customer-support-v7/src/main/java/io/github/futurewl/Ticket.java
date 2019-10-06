@@ -1,4 +1,4 @@
-package com.wrox;
+package io.github.futurewl;
 
 import java.time.Instant;
 import java.util.Collection;

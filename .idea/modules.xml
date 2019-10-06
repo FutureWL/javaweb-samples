@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/javaweb-custom/javaweb-customer-support-v6/customer-support.iml" filepath="$PROJECT_DIR$/javaweb-custom/javaweb-customer-support-v6/customer-support.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb-custom/javaweb-custom.iml" filepath="$PROJECT_DIR$/javaweb-custom/javaweb-custom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb-custom/javaweb-customer-support-v6/javaweb-customer-support.iml" filepath="$PROJECT_DIR$/javaweb-custom/javaweb-customer-support-v6/javaweb-customer-support.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb-custom/javaweb-customer-support-v6/javaweb-customer-support-v6.iml" filepath="$PROJECT_DIR$/javaweb-custom/javaweb-customer-support-v6/javaweb-customer-support-v6.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaweb-el/javaweb-el.iml" filepath="$PROJECT_DIR$/javaweb-el/javaweb-el.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaweb-el/javaweb-el-customer-support-v4/javaweb-el-customer-support-v4.iml" filepath="$PROJECT_DIR$/javaweb-el/javaweb-el-customer-support-v4/javaweb-el-customer-support-v4.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaweb-el/javaweb-el-user-profile/javaweb-el-user-profile.iml" filepath="$PROJECT_DIR$/javaweb-el/javaweb-el-user-profile/javaweb-el-user-profile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb-filter/javaweb-filter.iml" filepath="$PROJECT_DIR$/javaweb-filter/javaweb-filter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb-filter/javaweb-filter-compression-filter/javaweb-filter-compression-filter.iml" filepath="$PROJECT_DIR$/javaweb-filter/javaweb-filter-compression-filter/javaweb-filter-compression-filter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb-filter/javaweb-filter-customer-support-v7/javaweb-filter-customer-support-v7.iml" filepath="$PROJECT_DIR$/javaweb-filter/javaweb-filter-customer-support-v7/javaweb-filter-customer-support-v7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb-filter/javaweb-filter-filter-async/javaweb-filter-filter-async.iml" filepath="$PROJECT_DIR$/javaweb-filter/javaweb-filter-filter-async/javaweb-filter-filter-async.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb-filter/javaweb-filter-filter-order/javaweb-filter-filter-order.iml" filepath="$PROJECT_DIR$/javaweb-filter/javaweb-filter-filter-order/javaweb-filter-filter-order.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaweb-jsp/javaweb-jsp.iml" filepath="$PROJECT_DIR$/javaweb-jsp/javaweb-jsp.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaweb-jsp/javaweb-jsp-customer-support-v2/javaweb-jsp-customer-support-v2.iml" filepath="$PROJECT_DIR$/javaweb-jsp/javaweb-jsp-customer-support-v2/javaweb-jsp-customer-support-v2.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaweb-jsp/javaweb-jsp-hello-user/javaweb-jsp-hello-user.iml" filepath="$PROJECT_DIR$/javaweb-jsp/javaweb-jsp-hello-user/javaweb-jsp-hello-user.iml" />
@@ -22,6 +31,8 @@
       <module fileurl="file://$PROJECT_DIR$/javaweb-session/javaweb-session-customer-support-v3/javaweb-session-customer-support-v3.iml" filepath="$PROJECT_DIR$/javaweb-session/javaweb-session-customer-support-v3/javaweb-session-customer-support-v3.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaweb-session/javaweb-session-session-activity/javaweb-session-session-activity.iml" filepath="$PROJECT_DIR$/javaweb-session/javaweb-session-session-activity/javaweb-session-session-activity.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaweb-session/javaweb-session-shopping-cart/javaweb-session-shopping-cart.iml" filepath="$PROJECT_DIR$/javaweb-session/javaweb-session-shopping-cart/javaweb-session-shopping-cart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb-custom/javaweb-custom-template-tags/javaweb-template-tags.iml" filepath="$PROJECT_DIR$/javaweb-custom/javaweb-custom-template-tags/javaweb-template-tags.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb-custom/javaweb-custom-template-tags/template-tags.iml" filepath="$PROJECT_DIR$/javaweb-custom/javaweb-custom-template-tags/template-tags.iml" />
     </modules>
   </component>
 </project>

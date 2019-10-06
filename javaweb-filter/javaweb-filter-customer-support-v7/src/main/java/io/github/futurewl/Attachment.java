@@ -1,4 +1,4 @@
-package com.wrox;
+package io.github.futurewl;
 
 public class Attachment {
     private String name;

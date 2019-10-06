@@ -1,4 +1,4 @@
-package com.wrox;
+package io.github.futurewl;
 
 import javax.servlet.ServletException;
 import javax.servlet.ServletOutputStream;
