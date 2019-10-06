@@ -17,7 +17,7 @@
         <module>javaweb-jstl</module>
         <module>javaweb-custom</module>
         <module>javaweb-filter</module>
-        <!--        <module>javaweb-websocket</module>-->
+        <module>javaweb-websocket</module>
         <!--        <module>javaweb-log</module>-->
         <!--        <module>javaweb-bean-validation</module>-->
         <!--        <module>javaweb-spring-framework</module>-->

@@ -21,6 +21,9 @@
     <file type="web" url="file://$PROJECT_DIR$/javaweb-session/javaweb-session-customer-support-v3" />
     <file type="web" url="file://$PROJECT_DIR$/javaweb-session/javaweb-session-session-activity" />
     <file type="web" url="file://$PROJECT_DIR$/javaweb-session/javaweb-session-shopping-cart" />
+    <file type="web" url="file://$PROJECT_DIR$/javaweb-websocket/javaweb-customer-support-v8" />
+    <file type="web" url="file://$PROJECT_DIR$/javaweb-websocket/javaweb-game-site" />
+    <file type="web" url="file://$PROJECT_DIR$/javaweb-websocket/javaweb-simulated-cluster" />
   </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />

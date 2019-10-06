@@ -1,4 +1,4 @@
-<%--@elvariable id="sessions" type="java.util.List<ChatSession>"--%>
+<%--@elvariable id="sessions" type="java.util.List<io.github.futurewl.chat.ChatSession>"--%>
 <template:basic htmlTitle="Support Chat" bodyTitle="Support Chat Requests">
     <c:choose>
         <c:when test="${fn:length(sessions) == 0}">
