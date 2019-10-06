@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/maven-template.iml" filepath="$PROJECT_DIR$/.idea/maven-template.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb-samples.iml" filepath="$PROJECT_DIR$/javaweb-samples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb-servlet/javaweb-servlet.iml" filepath="$PROJECT_DIR$/javaweb-servlet/javaweb-servlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb-servlet/javaweb-servlet-customer-support-v1/javaweb-servlet-customer-support-v1.iml" filepath="$PROJECT_DIR$/javaweb-servlet/javaweb-servlet-customer-support-v1/javaweb-servlet-customer-support-v1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb-servlet/javaweb-servlet-hello-user/javaweb-servlet-hello-user.iml" filepath="$PROJECT_DIR$/javaweb-servlet/javaweb-servlet-hello-user/javaweb-servlet-hello-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb-servlet/javaweb-servlet-hello-world/javaweb-servlet-hello-world.iml" filepath="$PROJECT_DIR$/javaweb-servlet/javaweb-servlet-hello-world/javaweb-servlet-hello-world.iml" />
     </modules>
   </component>
 </project>
