@@ -3,7 +3,6 @@ package com.wrox.site;
 import com.wrox.site.entities.Attachment;
 import com.wrox.site.entities.Ticket;
 import com.wrox.site.entities.TicketComment;
-import com.wrox.site.repositories.*;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;

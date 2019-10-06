@@ -1,5 +1,5 @@
 <%--@elvariable id="loginFailed" type="java.lang.Boolean"--%>
-<%--@elvariable id="loginForm" type="com.wrox.site.AuthenticationController.Form"--%>
+<%--@elvariable id="loginForm" type="AuthenticationController.Form"--%>
 <spring:message code="title.login" var="loginTitle"/>
 <template:loggedOut htmlTitle="${loginTitle}" bodyTitle="${loginTitle}">
     <spring:message code="message.login.instruction"/><br/><br/>

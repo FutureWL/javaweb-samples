@@ -1,5 +1,5 @@
 <%--@elvariable id="loginFailed" type="java.lang.Boolean"--%>
-<%--@elvariable id="loginForm" type="com.wrox.site.AuthenticationController.Form"--%>
+<%--@elvariable id="loginForm" type="AuthenticationController.Form"--%>
 <template:loggedOut htmlTitle="Log In" bodyTitle="Log In">
     You must log in to access the customer support site.<br /><br />
     <c:if test="${loginFailed}">

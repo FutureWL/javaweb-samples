@@ -1,7 +1,6 @@
 package com.wrox.site;
 
 import com.wrox.config.annotation.WebController;
-import com.wrox.site.entities.*;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;

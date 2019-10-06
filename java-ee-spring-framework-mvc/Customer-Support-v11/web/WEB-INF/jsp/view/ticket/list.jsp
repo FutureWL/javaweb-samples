@@ -1,4 +1,4 @@
-<%--@elvariable id="tickets" type="java.util.List<com.wrox.site.Ticket>"--%>
+<%--@elvariable id="tickets" type="java.util.List<Ticket>"--%>
 <template:basic htmlTitle="Tickets" bodyTitle="Tickets">
     <c:choose>
         <c:when test="${fn:length(tickets) == 0}">

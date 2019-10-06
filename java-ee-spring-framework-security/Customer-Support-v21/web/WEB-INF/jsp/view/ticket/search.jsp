@@ -1,4 +1,4 @@
-<%--@elvariable id="searchForm" type="com.wrox.site.TicketController.SearchForm"--%>
+<%--@elvariable id="searchForm" type="TicketController.SearchForm"--%>
 <%--@elvariable id="searchPerformed" type="boolean"--%>
 <%--@elvariable id="results" type="org.springframework.data.domain.Page<com.wrox.site.repositories.SearchResult<com.wrox.site.entities.Ticket>>"--%>
 <spring:message code="title.searchTickets" var="searchTitle"/>

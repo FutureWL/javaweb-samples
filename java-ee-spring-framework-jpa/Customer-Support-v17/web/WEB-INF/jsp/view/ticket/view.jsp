@@ -1,5 +1,5 @@
 <%--@elvariable id="ticketId" type="java.lang.String"--%>
-<%--@elvariable id="ticket" type="com.wrox.site.Ticket"--%>
+<%--@elvariable id="ticket" type="Ticket"--%>
 <%--@elvariable id="comments" type="org.springframework.data.domain.Page<com.wrox.site.TicketComment>"--%>
 <spring:message code="title.ticketView" var="viewTitle"/>
 <template:basic htmlTitle="${ticket.subject}"

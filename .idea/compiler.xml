@@ -27,21 +27,26 @@
         <module name="javaweb-jstl-address-book" />
         <module name="javaweb-filter-compression-filter" />
         <module name="javaweb-filter-customer-support-v7" />
+        <module name="javaweb-hr-portal" />
         <module name="javaweb-jsp-hello-world" />
         <module name="javaweb-filter-filter-order" />
         <module name="javaweb-filter-filter-async" />
+        <module name="javaweb-customer-support-v13" />
         <module name="javaweb-customer-support-v9" />
         <module name="javaweb-customer-support-v8" />
         <module name="javaweb-logging-integration" />
         <module name="javaweb-customer-support-v6" />
         <module name="javaweb-game-site" />
+        <module name="hr-portal" />
         <module name="customer-support" />
         <module name="javaweb-jsp-hello-user" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="custom-constraints" target="1.8" />
       <module name="customer-support" target="1.8" />
       <module name="game-site" target="1.8" />
+      <module name="hr-portal" target="1.8" />
       <module name="java-ee-bean-validation" target="1.5" />
       <module name="java-ee-custom" target="1.5" />
       <module name="java-ee-el" target="1.5" />
@@ -76,9 +81,11 @@
       <module name="java-ee-spring-framework-mvc" target="1.5" />
       <module name="java-ee-spring-framework-security" target="1.5" />
       <module name="java-ee-websocket" target="1.5" />
+      <module name="javaweb-bean-validation" target="1.5" />
       <module name="javaweb-custom" target="1.5" />
       <module name="javaweb-custom-template-tags" target="1.8" />
       <module name="javaweb-customer-support" target="1.8" />
+      <module name="javaweb-customer-support-v13" target="1.8" />
       <module name="javaweb-customer-support-v6" target="1.8" />
       <module name="javaweb-customer-support-v8" target="1.8" />
       <module name="javaweb-customer-support-v9" target="1.8" />
@@ -91,6 +98,7 @@
       <module name="javaweb-filter-filter-async" target="1.8" />
       <module name="javaweb-filter-filter-order" target="1.8" />
       <module name="javaweb-game-site" target="1.8" />
+      <module name="javaweb-hr-portal" target="1.8" />
       <module name="javaweb-jsp" target="1.5" />
       <module name="javaweb-jsp-customer-support-v2" target="1.8" />
       <module name="javaweb-jsp-hello-user" target="1.8" />

@@ -1,4 +1,4 @@
-<%--@elvariable id="sessions" type="java.util.List<com.wrox.site.chat.ChatSession>"--%>
+<%--@elvariable id="sessions" type="java.util.List<ChatSession>"--%>
 <spring:message code="title.chatList" var="chatTitle"/>
 <template:basic htmlTitle="${chatTitle}" bodyTitle="${chatTitle}">
     <c:choose>

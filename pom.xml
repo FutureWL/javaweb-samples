@@ -19,7 +19,7 @@
         <module>javaweb-filter</module>
         <module>javaweb-websocket</module>
         <module>javaweb-log</module>
-        <!--        <module>javaweb-bean-validation</module>-->
+        <module>javaweb-bean-validation</module>
         <!--        <module>javaweb-spring-framework</module>-->
         <!--        <module>javaweb-spring-framework-mvc</module>-->
         <!--        <module>javaweb-spring-framework-i18n</module>-->

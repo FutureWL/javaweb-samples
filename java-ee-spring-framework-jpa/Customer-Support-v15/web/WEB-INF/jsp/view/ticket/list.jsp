@@ -1,4 +1,4 @@
-<%--@elvariable id="tickets" type="java.util.List<com.wrox.site.Ticket>"--%>
+<%--@elvariable id="tickets" type="java.util.List<Ticket>"--%>
 <spring:message code="title.ticketList" var="listTitle"/>
 <template:basic htmlTitle="${listTitle}" bodyTitle="${listTitle}">
     <c:choose>

@@ -1,7 +1,5 @@
 package com.wrox.site;
 
-import com.wrox.site.entities.*;
-
 import java.util.List;
 
 public interface EverythingService {

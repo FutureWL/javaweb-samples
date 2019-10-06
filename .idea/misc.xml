@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/javaweb-bean-validation/javaweb-custom-constraints" />
+    <file type="web" url="file://$PROJECT_DIR$/javaweb-bean-validation/javaweb-customer-support-v13" />
+    <file type="web" url="file://$PROJECT_DIR$/javaweb-bean-validation/javaweb-hr-portal" />
     <file type="web" url="file://$PROJECT_DIR$/javaweb-custom/javaweb-custom-template-tags" />
     <file type="web" url="file://$PROJECT_DIR$/javaweb-custom/javaweb-customer-support-v6" />
     <file type="web" url="file://$PROJECT_DIR$/javaweb-el/javaweb-el-customer-support-v4" />
@@ -35,6 +38,11 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/javaweb-bean-validation/javaweb-custom-constraints/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_12" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />

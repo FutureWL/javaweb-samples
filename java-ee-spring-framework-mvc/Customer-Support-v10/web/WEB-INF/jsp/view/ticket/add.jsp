@@ -1,4 +1,4 @@
-<%--@elvariable id="ticketForm" type="com.wrox.site.TicketController.Form"--%>
+<%--@elvariable id="ticketForm" type="TicketController.Form"--%>
 <template:basic htmlTitle="Create a Ticket" bodyTitle="Create a Ticket">
     <form:form method="post" enctype="multipart/form-data"
                modelAttribute="ticketForm">
